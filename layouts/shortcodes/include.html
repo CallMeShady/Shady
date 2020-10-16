@@ -1,0 +1,4 @@
+{{ $base_path := $.Page.File.Dir }} <!-- od verze v0.75.0 je ".Page.Dir" nahrazen "Page.File.Dir"-->
+{{ $file_path := .Get 0 }}
+{{ $full_file_path := (path.Join $base_path $file_path) }}
+{{ readFile $full_file_path | markdownify }}

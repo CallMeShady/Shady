@@ -1,0 +1,8 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $command := .Get 1 }}
+{{ $options := .Get 2 }}
+{{ $image := $original }}
+<figure style="padding: 0.10rem">
+	<img style="max-width: 100%; width:auto; height: auto; border-radius: 5px; border: 1px solid #D7D7D7; padding:5px;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Inner }}">{{ if .Inner }}
+	<figcaption><small>{{ with .Inner }}{{ . }}{{ end }}</small></figcaption>{{ end }}
+</figure>

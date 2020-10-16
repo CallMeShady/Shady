@@ -1,0 +1,86 @@
+theme = ["m10c"]
+author = "Filip Slezák"
+contentDir = "content"
+defaultContentLanguage = "cs"
+disableKinds = ["RSS", "sitemap", "taxonomy", "taxonomyTerm"]
+#enableGitInfo = true
+enableMissingTranslationPlaceholders = true
+enableRobotsTXT = true
+languageCode = "cs"
+relativeURLs = true
+
+[frontmatter]
+lastmod = [":git"]
+
+[imaging]
+anchor = "smart"
+resampleFilter = "Lanczos"
+# quality = 10
+
+[languages]
+
+[languages.cs]
+author = "Filip Slezák"
+description = "Dokumentace ke všemu, k čemu mě napadne"
+languageName = "Čeština"
+time_format_blog = "2.1.2006"
+time_format_default = "2.1.2006"
+weight = 1
+
+[[languages.en.menu.main]]
+url = "/docs"
+weight = 2
+
+[markup]
+
+[markup.goldmark]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Filip Slezák"
+copyright = "Filip Slezák"
+# Enable Lunr.js offline search
+offlineSearch = true
+
+[params.ui]
+# Set to true to disable breadcrumb navigation.
+breadcrumb_disable = false
+# Set to true to disable the About link in the site footer
+footer_about_disable = true
+# Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
+navbar_logo = true
+# Enable to show the side bar menu in its compact state.
+sidebar_menu_compact = true
+# Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
+sidebar_search_disable = false
+
+# Adds a reading time to the top of each doc.
+# If you want this feature, but occasionally need to remove the Reading time from a single page,
+# add "hide_readingtime: true" to the page's front matter
+[params.ui.readingtime]
+enable = false
+
+[params.style]
+  darkestColor = "#d35050"
+  darkColor = "#212121"
+  lightColor = "#f5e3e0"
+  lightestColor = "#f5f5f5"
+  primaryColor = "#fff"
+
+[permalinks]
+blog = "/:section/:year/:month/:day/:filename/"
+
+[privacy]
+
+[privacy.googleAnalytics]
+anonymizeIP = false
+disable = false
+respectDoNotTrack = true
+useSessionStorage = false
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"

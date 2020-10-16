@@ -1,0 +1,7 @@
+# 404.html
+[page-not-found-title]
+other = "Page not found!"
+[page-not-found-body]
+other = "This page doesn't exist. Try going back to our "
+[page-not-found-home-page]
+other = "home page"

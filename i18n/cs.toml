@@ -1,0 +1,48 @@
+# UI strings. Buttons and similar.
+
+[ui_pager_prev]
+other = "Předchozí"
+
+[ui_pager_next]
+other = "Další"
+
+[ui_read_more]
+other = "Číst více"
+
+[ui_search]
+other = "Vyhledat na portálu…"
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "v"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "Všechna práva vyhrazena"
+
+[footer_privacy_policy]
+other = "Zásady soukromí"
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "Od"
+[post_created]
+other = "Vytvořeno"
+[post_last_mod]
+other = "Poslední změna"
+[post_edit_this]
+other = "Editovat stránku"
+[post_create_issue]
+other = "Vytvořit dokumentační ticket"
+[post_create_project_issue]
+other = "Vytvořit projektový ticket"
+[post_posts_in]
+other = "Vytvořeno v"
+
+# 404.html
+[page-not-found-title]
+other = "Stránka nebyla nalezena!"
+[page-not-found-body]
+other = "Stránka neexistuje, můžete se vrátit na "
+[page-not-found-home-page]
+other = "domovskou obrazovku"
