@@ -1,7 +1,14 @@
 ---
-title: Test page
-description: A great human
+title: Table
+description: Just basic table
 tags: ["hugo", "themes"]
+---
+
+
+---
+
+Test
+
 ---
 
 |  1  | 2  | 3 | 4 | 5 |
