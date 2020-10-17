@@ -4,13 +4,6 @@ description: Just basic table
 tags: ["hugo", "themes"]
 ---
 
-
----
-
-Test
-
----
-
 |  1  | 2  | 3 | 4 | 5 |
 |---|---|---|---|---|
 |  a  |  d |  d | g  |  h |
